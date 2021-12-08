@@ -1,8 +1,5 @@
 ## OWASP
 
-<img src="owasp.png" alt="owasp" width="500" height="333">
-
-
 ## What Is OWASP?
 
 OWASP, or the Open Web Application Security Project, is a nonprofit organization focused on software security. Their projects include a number of open-source software development programs and toolkits, local chapters and conferences, among other things. One of their projects is the maintenance of the OWASP Top 10, a list of the top 10 security risks faced by web applications.
@@ -10,6 +7,9 @@ OWASP, or the Open Web Application Security Project, is a nonprofit organization
 ### OWASP Top 10 Vulnerabilities
 
 The OWASP Top 10 is a list of the 10 most common web application security risks. By writing code and performing robust testing with these risks in mind, developers can create secure applications that keep their users’ confidential data safe from attackers.
+
+- Bulleted
+- List
 
 # 1. Injection
 Injection occurs when an attacker exploits insecure code to insert (or inject) their own code into a program. Because the program is unable to determine code inserted in this way from its own code, attackers are able to use injection attacks to access secure areas and confidential information as though they are trusted users. Examples of injection include SQL injections, command injections, CRLF injections, and LDAP injections.
@@ -50,26 +50,6 @@ A static analysis accompanied by a software composition analysis can locate and 
 Failing to log errors or attacks and poor monitoring practices can introduce a human element to security risks. Threat actors count on a lack of monitoring and slower remediation times so that they can carry out their attacks before you have time to notice or react.
 To prevent issues with insufficient logging and monitoring, make sure that all login failures, access control failures, and server-side input validation failures are logged with context so that you can identify suspicious activity. Penetration testing is a great way to find areas of your application with insufficient logging too. Establishing effective monitoring practices is also essential.
 
-## Header 2
-### Header 3
-
 - Bulleted
 - List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Helen-Suzanne/Cyber-Fundamentals/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
